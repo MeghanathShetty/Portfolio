@@ -7,6 +7,7 @@ import { Helmet } from 'react-helmet';
 import "../styles/topNav.css";
 import "../styles/midPart.css";
 import "../styles/main.css";
+import "../styles/project.css"
 
 function MyApp({ Component, pageProps }) {
   return (

@@ -7,6 +7,7 @@ import { toast } from "react-toastify";
 import { toastErrorStyle } from "../components/utils/toastStyle";
 import TopNav from "../components/TopNav";
 import MidPart from "../components/MidPart";
+import Project from "../components/Project";
 
 const Index = () => {
 
@@ -15,6 +16,8 @@ const Index = () => {
             <TopNav />
 
             <MidPart />
+
+            <Project />
             
             
             

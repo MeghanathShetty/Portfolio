@@ -1,4 +1,5 @@
 .home {
+    width: 85%;
     margin-top: 10%;
     padding: 10px;
     display: flex;
@@ -36,50 +37,6 @@
 }
 
 .home-part2 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
-}
-
-.project
-{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.project-set
-{
-    width: 85%;
-    border-top: 2px solid #390da0;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-}
-
-/* .project-info
-{
-    justify-content: end;
-    align-items: flex-end;
-} */
-
-.project-name
-{
-    word-wrap: break-word;
-}
-
-.project-text
-{
-    font-size: 22px;
-    word-wrap: break-word;
-}
-.project-pic{
-    width: 70%;
-    display: flex;
-}
-.project-pic img {
     width: 100%;
     height: 100%;
     object-fit: cover; 
