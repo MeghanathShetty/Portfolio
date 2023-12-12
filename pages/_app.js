@@ -1,7 +1,6 @@
 // Import Bootstrap styles
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Helmet } from 'react-helmet';
 
@@ -22,7 +21,6 @@ function MyApp({ Component, pageProps }) {
           `}
         </style>
       </Helmet>
-      <ToastContainer position="top-center" />
       <Component {...pageProps} />
     </>
   );

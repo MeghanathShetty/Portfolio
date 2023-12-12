@@ -1,10 +1,8 @@
 import React from "react";
-import { useState, useEffect } from "react";
-import { toast } from "react-toastify";
+import { useEffect } from "react";
 
 
 // imports
-import { toastErrorStyle } from "../components/utils/toastStyle";
 import TopNav from "../components/TopNav";
 import MidPart from "../components/MidPart";
 import Project from "../components/Project";
