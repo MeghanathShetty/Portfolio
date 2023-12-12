@@ -8,7 +8,7 @@ import { toastErrorStyle } from "../components/utils/toastStyle";
 import TopNav from "../components/TopNav";
 import MidPart from "../components/MidPart";
 import Project from "../components/Project";
-import Contact from "../components/contact";
+import Contact from "../components/Contact";
 
 const Index = () => {
 
