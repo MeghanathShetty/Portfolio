@@ -12,6 +12,7 @@
     margin-top:7% ;
     margin-bottom: 2%;
     font-size: 4vw;
+    /* font-weight: bold; */
 }
 
 .project-set
@@ -53,20 +54,49 @@
 {
     .project-head
     {
-        font-size: 4.5vw;
+        font-size: 5vw;
     }
 
     .project-set
     {
         width: 100%;
         padding: 5px;
+        border: 0;
+        margin: 0;
+
     }
 
+    .project-set .row
+    {
+        padding: 0;
+        margin: 0;
+    }
 
+    .project-set::before {
+        content: '';
+        width: 80%;
+        border-top: 1px solid #390da0;
+        margin-bottom: 5px;
+    }
+
+    .project-name {
+        /* text-align: right; */
+        padding-left: 30px;
+    }
+
+    .project-name .p1{
+        font-size: 4vw !important;
+    }
+
+    .project-name .p2{
+        font-size: 2.5vw !important;
+    }
+    
     .project-text
     {
-        font-size: 1.5vw;
+        font-size: 2.5vw;
         word-wrap: break-word;
+        padding: 0;
     }
 }
 

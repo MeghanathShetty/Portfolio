@@ -9,11 +9,9 @@
 }
 
 .home-part1 {
-    /* background-color: #390da0; */
     padding: 10px;
     display: flex;
     flex-direction: column;
-    /* max-height: 25%; */
 }
 
 .name-text, .course-text {
@@ -45,7 +43,6 @@
     overflow: hidden;
     transition: max-height 0.7s ease-out;
     overflow-x: auto;
-    /* margin-top: 0; */
     display: flex;
     flex-direction: row;
   }
@@ -53,15 +50,20 @@
   .skill-btn
   {
     cursor: pointer;
+    font-weight: bold !important;
   }
   
   .skills-visible {
-    /* margin-top: 20px; */
+    font-size: 1.1vw;
     max-height: 7vh;
   }
 
   @media (max-width: 1000px)
   {
+    .home-part1{
+        padding: 20px;
+    }
+
     .home-part2{
         display: none;
     }
@@ -70,16 +72,25 @@
         width: 100%;
     }
 
-    .name-text, .course-text {
-        font-size: 5vw;
+    .name-text {
+        font-size: 7vw;
     }
     
     .course-text {
-        font-size: 3vw;
+        font-size: 5vw;
     }
     
     .other-text {
-        font-size: 1.5vw;
+        font-size: 2.5vw;
+    }
+
+    .skills .skill-btn
+    {
+        font-size: 2.5vw !important;
+    }
+
+    .skills-visible .skill-btn{
+        font-size: 2.5vw !important;
     }
   }
   

@@ -33,21 +33,15 @@ const MidPart=()=>
                     <img src="/imgs/vector1.jpg"  alt="vector1-img" />
                 </div>
                 <div className={`skills ${skillVisible ? 'skills-visible' : ''}`}>
-                    <button className="btn skill-btn" style={{ fontSize: '1.1vw' }}>JavaScript</button>
-                    <button className="btn skill-btn" style={{ fontSize: '1.1vw' }}>React</button>
-                    <button className="btn skill-btn" style={{ fontSize: '1.1vw' }}>Node.js</button>
-                    <button className="btn skill-btn" style={{ fontSize: '1.1vw' }}>HTML</button>
-                    <button className="btn skill-btn" style={{ fontSize: '1.1vw' }}>CSS</button>
+                    <button className="btn skill-btn" >Java</button>
+                    <button className="btn skill-btn" >C/C++</button>
+                    <button className="btn skill-btn" >MySQL</button>
+                    <button className="btn skill-btn" >MERN</button>
+                    <button className="btn skill-btn" >Android</button>
+                    <button className="btn skill-btn" >Python</button>
                 </div>
             </div>
 
-
-
-            
-
-
-            
-        
         </>
 
     );
