@@ -66,9 +66,9 @@
         display: none;
     }
 
-    /* .home{
+    .home{
         width: 100%;
-    } */
+    }
 
     .name-text, .course-text {
         font-size: 5vw;
