@@ -21,13 +21,13 @@ const TopNav = () => {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item me-3 ms-auto">
-            <a className="nav-link fs-5 nav-btn" href="#">Home</a>
+            <a className="nav-link fs-5 nav-btn" href="#Home">Home</a>
           </li>
           <li className="nav-item me-3 ms-auto">
-            <a className="nav-link fs-5 nav-btn" href="#">About</a>
+            <a className="nav-link fs-5 nav-btn" href="#Projects">Project</a>
           </li>
           <li className="nav-item me-3 ms-auto">
-            <a className="nav-link fs-5 nav-btn" href="#">Contact</a>
+            <a className="nav-link fs-5 nav-btn" href="#Contact">Contact</a>
           </li>
         </ul>
       </div>

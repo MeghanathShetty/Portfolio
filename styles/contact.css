@@ -8,6 +8,7 @@
 
 .contact-head
 {
+    margin-top: 1%;
     font-size: 3.2vw;
     font-weight: bold;
 }
@@ -23,4 +24,18 @@
 {
     margin-right: 2%;
     font-size: 1.1vw;
+}
+
+.contact-set-container a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+@media (max-width: 1000px)
+{
+    .contact-set
+    {
+        font-size: 1.5vw;
+    }
 }

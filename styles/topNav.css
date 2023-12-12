@@ -2,6 +2,12 @@
 {
     border-bottom: 2px solid #390da0;
     width: 100vw;
+    padding: 0;
+}
+
+.navbar
+{
+    padding: 0 !important;
 }
 
 .nav-link:hover
@@ -10,9 +16,26 @@
 }
 
 .nav-toggle-btn{
-    font-size: 1.1vw;
+    font-size: 1.9vw;
+    border: none;
 }
+
+.nav-toggle-btn:focus {
+    outline: none; 
+    border: none;  
+    box-shadow: none;
+  }
+  
+
 
 .nav-btn {
     font-size: 1.1vw !important;
   }
+
+  @media (max-width: 1000px)
+  {
+    .nav-btn {
+        font-size: 1.9vw !important;
+      }
+  }
+  

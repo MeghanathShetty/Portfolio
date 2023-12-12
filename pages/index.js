@@ -31,7 +31,7 @@ const Index = () => {
         <div className="container-fluid main">
             <TopNav />
 
-            <MidPart />
+            <MidPart /> {/* Home Part */}
 
             <Project />
 

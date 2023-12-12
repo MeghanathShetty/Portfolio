@@ -12,7 +12,7 @@ const MidPart=()=>
 
     return (
         <>
-            <div className="home row">
+            <div className="home row" id="Home">
                 <div className="home-part1 col-lg-8 col-md-12 col-sm-12">
                     <div className="name-container">
                         <p className="name-text">
