@@ -1,0 +1,26 @@
+.contact
+{
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid #390da0;
+    width: 85%;
+}
+
+.contact-head
+{
+    font-size: 3.2vw;
+    font-weight: bold;
+}
+
+.contact-set-container{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+}
+
+.contact-set
+{
+    margin-right: 2%;
+    font-size: 1.1vw;
+}

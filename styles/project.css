@@ -7,6 +7,13 @@
     align-items: center;
 }
 
+.project-head
+{
+    margin-top:7% ;
+    margin-bottom: 2%;
+    font-size: 4vw;
+}
+
 .project-set
 {
     width: 85%;
@@ -29,11 +36,11 @@
 
 .project-text
 {
-    font-size: 22px;
+    font-size: 1.1vw;
     word-wrap: break-word;
 }
 .project-pic{
-    width: 70%;
+    width: 60%;
     display: flex;
 }
 .project-pic img {
@@ -41,3 +48,4 @@
     height: 100%;
     object-fit: cover; 
 }
+

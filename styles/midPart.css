@@ -9,7 +9,7 @@
 }
 
 .home-part1 {
-    background-color: #390da0;
+    /* background-color: #390da0; */
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -17,19 +17,17 @@
 }
 
 .name-text, .course-text {
-    font-size: 54px;
+    font-size: 4.5vw;
     padding: 0;
     margin: 0;
-    color: white;
 }
 
 .course-text {
-    font-size: 44px;
+    font-size: 2.5vw;
 }
 
 .other-text {
-    font-size: 20px;
-    color: white;
+    font-size: 1.1vw;
 }
 
 .home-part2 {
@@ -38,6 +36,29 @@
 
 .home-part2 img {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     object-fit: cover; 
 }
+
+.skills {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease-out;
+    overflow-x: auto;
+    /* margin-top: 0; */
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .skills-visible {
+    /* margin-top: 20px; */
+    height: 100px
+  }
+
+  @media (max-width: 1000px)
+  {
+    .home-part2{
+        display: none;
+    }
+  }
+  

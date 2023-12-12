@@ -7,5 +7,12 @@
 .nav-link:hover
 {
     /* background-color: rgb(224, 101, 19); */
-
 }
+
+.nav-toggle-btn{
+    font-size: 1.1vw;
+}
+
+.nav-btn {
+    font-size: 1.1vw !important;
+  }
