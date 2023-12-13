@@ -109,3 +109,12 @@
     }
 }
 
+
+@media (max-width: 600px)
+{
+    .project-pic img {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }    
+}
+

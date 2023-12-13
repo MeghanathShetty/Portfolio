@@ -36,11 +36,11 @@ const Project=()=>
             <div className="project-set row">
                 <div className="project-info row">
                     <div className="project-name col-4">
-                        <p className="p1" style={{fontSize:"3.2vw",fontWeight:"bold",margin:"0"}}>Library Management System</p>
+                        <p className="p1" style={{fontSize:"3.2vw",fontWeight:"bold",margin:"0"}}>LMS</p>
                         <p className="p2" style={{fontSize:"1.1vw",fontStyle:"italic"}}>Python</p>
                     </div>
                     <div className="project-text col-8">
-                        Library Management System is an desktop application developed
+                        Library Management System (LMS) is an desktop application developed
                         using Python and uses MySQL as database.The app sports an admin and client
                         side.Has penalty system for late returns and an easy to use interface.
                         <div className="view-project" style={{marginTop:"5px"}}>
