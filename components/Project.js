@@ -27,7 +27,7 @@ const Project=()=>
                     </div>
                 </div>
                 <div className="project-pic mt-2">
-                    <img src="/imgs/project1.png"
+                    <img src="/imgs/project1_m1.png"
                       alt="project-img" />
                 </div>
             </div>
@@ -50,7 +50,7 @@ const Project=()=>
                     </div>
                 </div>
                 <div className="project-pic mt-2">
-                    <img src="/imgs/vector1.jpg"
+                    <img src="/imgs/project2.png"
                       alt="project-img" />
                 </div>
             </div>
@@ -73,7 +73,7 @@ const Project=()=>
                     </div>
                 </div>
                 <div className="project-pic mt-2">
-                    <img src="/imgs/vector1.jpg"
+                    <img src="/imgs/project3.png"
                       alt="project-img" />
                 </div>
             </div>
@@ -97,7 +97,7 @@ const Project=()=>
                     </div>
                 </div>
                 <div className="project-pic mt-2">
-                    <img src="/imgs/vector1.jpg"
+                    <img src="/imgs/project4.png"
                       alt="project-img" />
                 </div>
             </div>

@@ -23,9 +23,9 @@ const MidPart=()=>
                         </p>
                     </div>
                     <div className="other-text">
-                    A motivated individual with knowledge of languages and development tools, seeking a position in a 
-                    growth-oriented company where I can use my skills to the advantage of the company while having the
-                     scope to develop my own skills.
+                        I am a passionate individual exploring new career opportunities, driven by a keen interest
+                         in languages and development tools.My goal is to contribute my skills to a dynamic
+                          work environment while continually expanding my knowledge and capabilities.
                      <div className="skill-btn mt-3" onClick={toggleVisibility}><u>Skills</u></div>
                     </div>
                 </div>
