@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-toastify/dist/ReactToastify.css';
 import { Helmet } from 'react-helmet';
 
+import { Analytics } from '@vercel/analytics/react';
+
 // styles
 import "../styles/topNav.css";
 import "../styles/midPart.css";
@@ -12,6 +14,7 @@ import "../styles/project.css"
 import "../styles/contact.css"
 
 function MyApp({ Component, pageProps }) {
+
   return (
     <>
       <Helmet>
@@ -22,6 +25,7 @@ function MyApp({ Component, pageProps }) {
         </style>
       </Helmet>
       <Component {...pageProps} />
+      <Analytics />
     </>
   );
 }
