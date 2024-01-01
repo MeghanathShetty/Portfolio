@@ -3,12 +3,14 @@
     border-bottom: 2px solid #390da0;
     width: 100vw;
     padding: 0;
+    background-color: white;
 }
 
 .navbar
 {
     padding: 0 !important;
 }
+
 
 .nav-link:hover
 {
@@ -32,6 +34,15 @@
     font-size: 1.1vw !important;
   }
 
+.navbar-collapse {
+    transition: height 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .navbar-collapse.show {
+    height: 100%;
+  }
+  
   @media (max-width: 1000px)
   {
     .nav-btn {

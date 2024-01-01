@@ -1,7 +1,8 @@
 .home {
     width: 85%;
-    margin-top: 10%;
+    /* margin-top: 10%; */
     padding: 10px;
+    padding-top: 10%;
     display: flex;
     font-weight: bold;
     justify-content: center;
