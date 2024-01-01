@@ -36,7 +36,7 @@ const TopNav = () => {
             </li>
             <li className="nav-item me-3 ms-auto">
               <a className="nav-link fs-5 nav-btn" href="#Projects" onClick={handleNavLinkClick}>
-                Project
+                Projects
               </a>
             </li>
             <li className="nav-item me-3 ms-auto">
