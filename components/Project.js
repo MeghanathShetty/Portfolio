@@ -50,12 +50,11 @@ const Project=()=>
                     </div>
                 </div>
                 <div className="project-pic mt-2">
-                    <img src="/imgs/project2.png"
+                    <img src="/imgs/project2_m1.png"
                       alt="project-img" />
                 </div>
             </div>
 
-            
             <div className="project-set row">
                 <div className="project-info row">
                     <div className="project-name col-4">
