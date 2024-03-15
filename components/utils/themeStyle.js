@@ -16,8 +16,7 @@ export const darkThemeStyle = () =>
     {
         border-bottom: 2px solid #390da0;
         background-color: black;
-        box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.9);
-
+        box-shadow: 0px 7px 30px rgba(57, 13, 160, 1);
     }
 
     .nav-link,.navbar-toggler
