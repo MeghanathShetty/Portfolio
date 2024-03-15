@@ -27,7 +27,7 @@ const Project=()=>
                     </div>
                 </div>
                 <div className="project-pic mt-2">
-                    <img src="/imgs/project1_m1.png"
+                    <img src="/imgs/project1_m1_exe1.png"
                       alt="project-img" />
                 </div>
             </div>

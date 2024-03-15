@@ -1,6 +1,5 @@
 .home {
     width: 85%;
-    /* margin-top: 10%; */
     padding: 10px;
     padding-top: 10%;
     display: flex;
@@ -13,6 +12,7 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
+    
 }
 
 .name-text, .course-text {
@@ -44,8 +44,22 @@
     overflow: hidden;
     transition: max-height 0.7s ease-out;
     overflow-x: auto;
-    display: flex;
-    flex-direction: row;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: flex-start;
+    align-items: flex-start; */
+    text-wrap: wrap;
+    margin-top: 3%;
+  }
+  
+/* Just incase, really not needed */
+  .skills::-webkit-scrollbar {
+    height: 10px;
+  }
+  
+  .skills::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
   }
 
   .skills .skill-btn
@@ -65,8 +79,9 @@
   
  .skills-visible {
     /* font-size: 1.1vw; */
-    max-height: 7vh;
+    max-height: 100vh;
   }
+  
 
   @media (max-width: 1000px)
   {
@@ -107,5 +122,17 @@
     .skills-visible .skill-btn{
         font-size: 2.5vw !important;
     }
+
+    .skills {
+        overflow-x: auto;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: flex-start;
+        align-items: flex-start; */
+      }
+
+    .skills::-webkit-scrollbar {
+        height: 4px;
+      }
   }
   

@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 
 const MidPart=()=>
@@ -26,19 +26,32 @@ const MidPart=()=>
                          in languages and development tools.My goal is to contribute my skills to a dynamic
                           work environment while continually expanding my knowledge and capabilities.
                      <div className="skill-btn mt-3" id="skill-toggle-btn" onClick={toggleVisibility}><u>Skills</u></div>
+                     {/* Shifted here ( Original placement below )*/}
+                    <div className={`skills ${skillVisible ? 'skills-visible' : ''}`}>
+                        <button className="btn skill-btn" >Java</button>
+                        <button className="btn skill-btn" >C/C++</button>
+                        <button className="btn skill-btn" >MySQL</button>
+                        <button className="btn skill-btn" >MERN</button>
+                        <button className="btn skill-btn" >Android</button>
+                        <button className="btn skill-btn" >Python</button>
+                        <button className="btn skill-btn" >Javascript</button>
+                    </div>
                     </div>
                 </div>
                 <div className="home-part2 col-lg-4 col-md-12 col-sm-12">
-                    <img src="/imgs/vector1.jpg"  alt="vector1-img" />
+                    <img src="/imgs/vector1_no_bg.png"  alt="vector1-img" />
                 </div>
-                <div className={`skills ${skillVisible ? 'skills-visible' : ''}`}>
+
+                {/* Original placement */}
+                {/* <div className={`skills ${skillVisible ? 'skills-visible' : ''}`}>
                     <button className="btn skill-btn" >Java</button>
                     <button className="btn skill-btn" >C/C++</button>
                     <button className="btn skill-btn" >MySQL</button>
                     <button className="btn skill-btn" >MERN</button>
                     <button className="btn skill-btn" >Android</button>
                     <button className="btn skill-btn" >Python</button>
-                </div>
+                </div> */}
+
             </div>
 
         </>
