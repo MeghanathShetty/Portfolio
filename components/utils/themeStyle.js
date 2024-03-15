@@ -19,6 +19,10 @@ export const darkThemeStyle = () =>
         box-shadow: 0px 7px 30px rgba(57, 13, 160, 1);
     }
 
+    .project-pic img {
+        box-shadow: 0px 5px 30px rgba(57, 13, 160, 1);
+    }
+
     .nav-link,.navbar-toggler
     {
         color:white !important;
