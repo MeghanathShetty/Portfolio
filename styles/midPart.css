@@ -48,17 +48,23 @@
     flex-direction: row;
   }
 
-  .skill-btn
+  .skills .skill-btn
   {
-    cursor: pointer;
+    font-size: 0.9vw;
+    cursor: text;
     font-weight: bold !important;
     color : black !important;
   }
 
+  #skill-toggle-btn
+  {
+    cursor: pointer;
+    /* padding-top: 2vh; */
+  }
   
   
-  .skills-visible {
-    font-size: 1.1vw;
+ .skills-visible {
+    /* font-size: 1.1vw; */
     max-height: 7vh;
   }
 
@@ -87,6 +93,11 @@
     .other-text {
         font-size: 2.5vw;
     }
+
+    /* #skill-toggle-btn
+    {
+        padding-top: 0;
+    } */
 
     .skills .skill-btn
     {

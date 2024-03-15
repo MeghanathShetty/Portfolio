@@ -25,7 +25,7 @@ const MidPart=()=>
                         I am a passionate individual exploring new career opportunities, driven by a keen interest
                          in languages and development tools.My goal is to contribute my skills to a dynamic
                           work environment while continually expanding my knowledge and capabilities.
-                     <div className="skill-btn mt-3" onClick={toggleVisibility}><u>Skills</u></div>
+                     <div className="skill-btn mt-3" id="skill-toggle-btn" onClick={toggleVisibility}><u>Skills</u></div>
                     </div>
                 </div>
                 <div className="home-part2 col-lg-4 col-md-12 col-sm-12">

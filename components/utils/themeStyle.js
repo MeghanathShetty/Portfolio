@@ -28,7 +28,7 @@ export const darkThemeStyle = () =>
         color:white !important;
     }
 
-    .skill-btn
+    .skills .skill-btn
     {
         color : white !important;
     }
