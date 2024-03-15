@@ -19,7 +19,7 @@
 .project-set
 {
     width: 85%;
-    border-top: 1px solid #390da0;
+    border-top: 2px solid #390da0;
     padding: 10px;
     justify-content: center;
     align-items: center;
@@ -122,7 +122,6 @@
     {
         margin-top: -5% !important;
         padding-top: 13% !important;
-
     }
 
 }

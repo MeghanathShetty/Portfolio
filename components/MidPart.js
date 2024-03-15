@@ -7,7 +7,6 @@ const MidPart=()=>
     const [skillVisible, setSkillVisible] = useState(false);
     const toggleVisibility = () => {
         setSkillVisible(!skillVisible);
-        console.log("fdsggsd")
       };
 
     return (

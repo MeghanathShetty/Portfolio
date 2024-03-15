@@ -6,6 +6,15 @@
     box-shadow: 0px 10px 7px -10px rgba(0, 0, 0, 0.5);
 }
 
+.navbar-toggler {
+  color: black !important;
+}
+
+.nav-link
+{
+    color:black !important;
+    cursor: pointer;
+}
 
 .navbar
 {
@@ -19,7 +28,6 @@
 }
 
 .nav-toggle-btn{
-    font-size: 4.5vw;
     border: none;
 }
 

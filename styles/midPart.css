@@ -52,7 +52,10 @@
   {
     cursor: pointer;
     font-weight: bold !important;
+    color : black !important;
   }
+
+  
   
   .skills-visible {
     font-size: 1.1vw;
