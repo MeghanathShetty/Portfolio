@@ -39,7 +39,7 @@ const MidPart=()=>
                     </div>
                 </div>
                 <div className="home-part2 col-lg-4 col-md-12 col-sm-12">
-                    <img src="/imgs/vector1_no_bg.png"  alt="vector1-img" />
+                    <img src="/imgs/me1_no_bg.png"  alt="vector1-img" />
                 </div>
 
                 {/* Original placement */}
