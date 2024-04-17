@@ -91,6 +91,10 @@
 
   @media (max-width: 1000px)
   {
+    .home{
+        padding-top: 10%;
+    }
+
     .home-part1{
         padding: 20px;
     }
