@@ -22,6 +22,10 @@ export const darkThemeStyle = () =>
     .project-pic img {
         box-shadow: 0px 5px 30px rgba(57, 13, 160, 1);
     }
+    
+    .home-part2 img {
+        // box-shadow: 0px 5px 30px rgba(57, 13, 160, 1);
+    }
 
     .nav-link,.navbar-toggler
     {
