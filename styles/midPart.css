@@ -70,16 +70,14 @@
     border-radius: 10px;
   }
 
-  .skills .skill-btn
-  {
+  .skills .skill-btn{
     font-size: 0.9vw;
     cursor: text;
     font-weight: bold !important;
     color : black !important;
   }
 
-  #skill-toggle-btn
-  {
+  #skill-toggle-btn{
     cursor: pointer;
     /* padding-top: 2vh; */
   }
