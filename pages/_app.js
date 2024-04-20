@@ -23,6 +23,7 @@ function MyApp({ Component, pageProps }) {
             @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
           `}
         </style>
+        <link rel="icon" href="/imgs/web_icon.png" />
       </Helmet>
       <Component {...pageProps} />
       <Analytics />
