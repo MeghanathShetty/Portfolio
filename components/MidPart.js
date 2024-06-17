@@ -27,15 +27,17 @@ const MidPart=()=>
                      <div className="skill-btn mt-3" id="skill-toggle-btn" onClick={toggleVisibility}><u>Skills</u></div>
                      {/* Shifted here ( Original placement below )*/}
                     <div className={`skills ${skillVisible ? 'skills-visible' : ''}`} 
-                    style={skillVisible ? { transition: 'all 1s ease-in-out' } : { transition: 'none' }}
+                        style={skillVisible ? { transition: 'all 1s ease-in-out' } : { transition: 'all 0.3s ease-in-out' }}
                     >
                         <button className="btn skill-btn" >Java</button>
-                        <button className="btn skill-btn" >C/C++</button>
+                        <button className="btn skill-btn" >Javascript</button>
                         <button className="btn skill-btn" >MySQL</button>
+                        <button className="btn skill-btn" >React</button>
+                        <button className="btn skill-btn" >Node.js</button>
                         <button className="btn skill-btn" >MERN</button>
                         <button className="btn skill-btn" >Android</button>
                         <button className="btn skill-btn" >Python</button>
-                        <button className="btn skill-btn" >Javascript</button>
+                        <button className="btn skill-btn" >C/C++</button>
                     </div>
                     </div>
                 </div>
