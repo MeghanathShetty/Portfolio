@@ -3,7 +3,7 @@
     width: 100vw;
     padding: 0;
     /* background-color: white; */
-    background: linear-gradient(90deg, rgb(255, 255, 255), #390da0);
+    background: linear-gradient(90deg, #c8b1ff, #390da0);
     /* box-shadow: 0px 10px 7px -10px rgba(0, 0, 0, 0.5); */
     /* box-shadow: 0px 10px 7px -9px rgba(57, 13, 160, 0.4); */
     box-shadow: 10px 7px 15px rgba(57, 13, 160, 1);
