@@ -2,18 +2,20 @@
     border-bottom: 2px solid #390da0;
     width: 100vw;
     padding: 0;
-    background-color: white;
-    box-shadow: 0px 10px 7px -10px rgba(0, 0, 0, 0.5);
+    /* background-color: white; */
+    background: linear-gradient(90deg, rgb(255, 255, 255), #390da0);
+    /* box-shadow: 0px 10px 7px -10px rgba(0, 0, 0, 0.5); */
     /* box-shadow: 0px 10px 7px -9px rgba(57, 13, 160, 0.4); */
+    box-shadow: 10px 7px 15px rgba(57, 13, 160, 1);
 }
 
 .navbar-toggler {
-  color: black !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 .nav-link
 {
-    color:black !important;
+    color:rgb(255, 255, 255) !important;
     cursor: pointer;
 }
 
@@ -21,7 +23,6 @@
 {
     padding: 0 !important;
 }
-
 
 .nav-link:hover
 {

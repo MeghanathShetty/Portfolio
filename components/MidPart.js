@@ -1,6 +1,5 @@
 import { useState } from "react";
 
-
 const MidPart=()=>
 {
     // toggle skill visibilty

@@ -74,7 +74,7 @@
     font-size: 0.9vw;
     cursor: text;
     font-weight: bold !important;
-    color : black !important;
+    color : rgb(255, 255, 255) !important;
   }
 
   #skill-toggle-btn{

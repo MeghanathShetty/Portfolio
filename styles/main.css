@@ -9,8 +9,9 @@
     align-items: center;
     font-family: 'Poppins', sans-serif; 
     padding: 0 !important;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    /* background-color: rgb(255, 255, 255); */
+    background: linear-gradient(90deg, #c8b1ff, #390da0);
+    color: #ffff !important;
 }
 
 html
