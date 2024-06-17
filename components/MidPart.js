@@ -26,7 +26,9 @@ const MidPart=()=>
                           work environment while continually expanding my knowledge and capabilities.
                      <div className="skill-btn mt-3" id="skill-toggle-btn" onClick={toggleVisibility}><u>Skills</u></div>
                      {/* Shifted here ( Original placement below )*/}
-                    <div className={`skills ${skillVisible ? 'skills-visible' : ''}`}>
+                    <div className={`skills ${skillVisible ? 'skills-visible' : ''}`} 
+                    style={skillVisible ? { transition: 'all 1s ease-in-out' } : { transition: 'none' }}
+                    >
                         <button className="btn skill-btn" >Java</button>
                         <button className="btn skill-btn" >C/C++</button>
                         <button className="btn skill-btn" >MySQL</button>

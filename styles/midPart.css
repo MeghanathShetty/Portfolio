@@ -50,7 +50,6 @@
 .skills {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.7s ease-out;
     overflow-x: auto;
     /* display: flex; */
     /* flex-direction: row; */
