@@ -14,7 +14,7 @@ const MidPart=()=>
                 <div className="home-part1 col-lg-8 col-md-12 col-sm-12">
                     <div className="name-container">
                         <p className="name-text">
-                            Hi,I am Meghanath Shetty,
+                            Hi, I am Meghanath Shetty,
                         </p>
                         <p className="course-text">
                            MCA Graduate
