@@ -24,3 +24,14 @@ html
     background-color: #390da0;
     color: #ffffff;
 }
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #c6b2f7;
+    border-radius: 5px;
+    cursor: grab;
+    transition: background-color 0.5s linear;
+}
