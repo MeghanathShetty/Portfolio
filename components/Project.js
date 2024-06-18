@@ -9,6 +9,28 @@ const Project=()=>
 
         <div className="project row ">
 
+        <div className="project-set row">
+                <div className="project-info row">
+                    <div className="project-name col-4">
+                        <p className="p1" style={{fontSize:"3.2vw",fontWeight:"bold",margin:"0"}}>AK Digitals</p>
+                        <p className="p2" style={{fontSize:"1.1vw",fontStyle:"italic"}}>React</p>
+                    </div>
+                    <div className="project-text col-8">
+                        AK Digitals is a web app developed using React and Firebase. 
+                        It showcases photos and videos of a photographer and includes a dashboard that 
+                        allows the admin to view storage analytics, upload videos, and delete videos.
+                        <div className="view-project" style={{marginTop:"5px"}}>
+                            <a href="https://github.com/MeghanathShetty/Ak_digitals" 
+                            target="_blank" rel="noopener noreferrer">View Project <FaArrowRight /> </a> 
+                        </div>
+                    </div>
+                </div>
+                <div className="project-pic mt-2">
+                    <img src="/imgs/project5.png"
+                      alt="project-img" />
+                </div>
+            </div>
+
             <div className="project-set row">
                 <div className="project-info row">
                     <div className="project-name col-4">
