@@ -17,8 +17,9 @@ const Project=()=>
                     </div>
                     <div className="project-text col-8">
                         AK Digitals is a web app developed using React and Firebase. 
-                        It showcases photos and videos of a photographer and includes a dashboard that 
-                        allows the admin to view storage analytics, upload videos, and delete videos.
+                        It showcases photos and videos of a photographer and includes a dashboard 
+                        that allows the admin to view storage analytics, upload new photos and videos, 
+                        and delete old photos and videos.
                         <div className="view-project" style={{marginTop:"5px"}}>
                             <a href="https://github.com/MeghanathShetty/Ak_digitals" 
                             target="_blank" rel="noopener noreferrer">View Project <FaArrowRight /> </a> 
