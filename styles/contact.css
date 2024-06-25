@@ -26,6 +26,12 @@
 {
     margin-right: 2%;
     font-size: 1.1vw;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s linear;
+}
+
+.contact-set:hover {
+    border-bottom: 2px solid white;
 }
 
 .contact-set-container a {

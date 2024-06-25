@@ -10,6 +10,30 @@ const Project=()=>
         <div className="project row ">
 
         <div className="project-set row">
+            <div className="project-info row">
+                <div className="project-name col-4">
+                    <p className="p1" style={{fontSize:"3.2vw",fontWeight:"bold",margin:"0"}}>MI</p>
+                    <p className="p2" style={{fontSize:"1.1vw",fontStyle:"italic"}}>React/Python-Flask</p>
+                </div>
+                <div className="project-text col-8">
+                    A Mock Interview System built using AI (Gemini) with React frontend and Python-Flask backend. 
+                    Generates job-specific questions, analyzes emotions, and detects cheats via face recognition. 
+                    Includes speech recognition for natural responses and provides AI-generated review for comprehensive 
+                    feedback on performance, including cheat and emotion analysis.
+                    <div className="view-project" style={{marginTop:"5px"}}>
+                        <a href="https://github.com/MeghanathShetty/Mock-Interview-System-Python" 
+                        target="_blank" rel="noopener noreferrer">View Project <FaArrowRight /> </a> 
+                    </div>
+                </div>
+            </div>
+            <div className="project-pic mt-2">
+                <img src="/imgs/project6.png"
+                    alt="project-img" />
+            </div>
+        </div>
+
+
+        <div className="project-set row">
                 <div className="project-info row">
                     <div className="project-name col-4">
                         <p className="p1" style={{fontSize:"3.2vw",fontWeight:"bold",margin:"0"}}>AK Digitals</p>
@@ -78,7 +102,7 @@ const Project=()=>
                 </div>
             </div>
 
-            <div className="project-set row">
+            {/* <div className="project-set row">
                 <div className="project-info row">
                     <div className="project-name col-4">
                         <p className="p1" style={{fontSize:"3.2vw",fontWeight:"bold",margin:"0"}}>Edemy</p>
@@ -98,7 +122,7 @@ const Project=()=>
                     <img src="/imgs/project3.png"
                       alt="project-img" />
                 </div>
-            </div>
+            </div> */}
 
             
             <div className="project-set row">
