@@ -14,10 +14,10 @@ export const Contact=()=>
                      target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 </div>
                 <div className="contact-set">
-                    <a href="mailto:meghanshetty3122@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
+                    <a href="mailto:meghanathshetty22t@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
                 </div>
                 <div className="contact-set">
-                    <a href="https://drive.google.com/file/d/1UAbIutXYqBGx1wakaqoHzDAA0tPOQ9GI/view?usp=drivesdk"
+                    <a href="https://drive.google.com/file/d/1Dg8RHTXgKnF03XkvbrSH88tNLmmhRVYZ/view?usp=sharing"
                      target="_blank" rel="noopener noreferrer">Resume</a>
                 </div>
             </div>
