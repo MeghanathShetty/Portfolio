@@ -1,7 +1,6 @@
 export const Contact=()=>
 {
 
-
     return (
         <div className="contact row mt-5 mb-4" id="Contact">
             <h1 className="contact-head">Contact</h1>
