@@ -16,7 +16,7 @@ export const Contact=()=>
                     <a href="mailto:meghanathshetty22t@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
                 </div>
                 <div className="contact-set">
-                    <a href="https://drive.google.com/file/d/12hTXlKZmR3M-22RqYYw4HBQAbHKVSaRz/view?usp=sharing"
+                    <a href="https://drive.google.com/file/d/1iarDmsWJFPX3zFIbltfYGUxlMVhxmOBK/view?usp=sharing"
                      target="_blank" rel="noopener noreferrer">Resume</a>
                 </div>
             </div>
