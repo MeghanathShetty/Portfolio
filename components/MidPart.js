@@ -29,31 +29,20 @@ const MidPart=()=>
                     <div className={`skills ${skillVisible ? 'skills-visible' : ''}`} 
                         style={skillVisible ? { transition: 'all 1s ease-in-out' } : { transition: 'all 0.3s ease-in-out' }}
                     >
+                        <button className="btn skill-btn" >Flutter</button>
                         <button className="btn skill-btn" >Java</button>
                         <button className="btn skill-btn" >Javascript</button>
                         <button className="btn skill-btn" >MySQL</button>
                         <button className="btn skill-btn" >React</button>
                         <button className="btn skill-btn" >MERN</button>
-                        <button className="btn skill-btn" >Node.js</button>
-                        <button className="btn skill-btn" >Android</button>
                         <button className="btn skill-btn" >Python</button>
-                        <button className="btn skill-btn" >C/C++</button>
+                        <button className="btn skill-btn" >Node.js</button>
                     </div>
                     </div>
                 </div>
                 <div className="home-part2 col-lg-4 col-md-12 col-sm-12">
                     <img src="/imgs/me1_no_bg.png"  alt="Image" />
                 </div>
-
-                {/* Original placement */}
-                {/* <div className={`skills ${skillVisible ? 'skills-visible' : ''}`}>
-                    <button className="btn skill-btn" >Java</button>
-                    <button className="btn skill-btn" >C/C++</button>
-                    <button className="btn skill-btn" >MySQL</button>
-                    <button className="btn skill-btn" >MERN</button>
-                    <button className="btn skill-btn" >Android</button>
-                    <button className="btn skill-btn" >Python</button>
-                </div> */}
 
             </div>
 

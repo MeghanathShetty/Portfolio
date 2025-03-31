@@ -6,7 +6,8 @@ export const Contact=()=>
             <h1 className="contact-head">Contact</h1>
             <div className="contact-set-container">
                 <div className="contact-set">
-                    <a href="https://github.com/MeghanathShetty" target="_blank" rel="noopener noreferrer">Github</a>
+                    <a href="https://github.com/MeghanathShetty" 
+                     target="_blank" rel="noopener noreferrer">Github</a>
                 </div>
                 <div className="contact-set">
                     <a href="https://www.linkedin.com/in/meghanath-shetty-6b86a3264/"
