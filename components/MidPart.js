@@ -29,14 +29,12 @@ const MidPart=()=>
                     <div className={`skills ${skillVisible ? 'skills-visible' : ''}`} 
                         style={skillVisible ? { transition: 'all 1s ease-in-out' } : { transition: 'all 0.3s ease-in-out' }}
                     >
+                        <button className="btn skill-btn" >C/C++</button>
+                        <button className="btn skill-btn" >MySQL</button>
+                        <button className="btn skill-btn" >Bash/Shell Scripting</button>
                         <button className="btn skill-btn" >Flutter</button>
                         <button className="btn skill-btn" >Java</button>
-                        <button className="btn skill-btn" >Javascript</button>
-                        <button className="btn skill-btn" >MySQL</button>
-                        <button className="btn skill-btn" >React</button>
-                        <button className="btn skill-btn" >MERN</button>
-                        <button className="btn skill-btn" >Python</button>
-                        <button className="btn skill-btn" >Node.js</button>
+                        <button className="btn skill-btn" >MERN Stack</button>
                     </div>
                     </div>
                 </div>
